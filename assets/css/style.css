@@ -1,0 +1,76 @@
+.animate__animated {
+  --animate-duration: 3s;
+}
+
+.parent {
+  width: 78%;
+  height: 30rem;
+  overflow: hidden;
+  padding: 4rem;
+  box-shadow: 2px 10px 35px rgba(255, 165, 0, 0.3);
+  margin: 0 auto;
+  position: relative;
+}
+.part1 {
+  position: absolute;
+  bottom: 3rem;
+  left: 2rem;
+  width: 50%;
+  height: 10rem;
+  background-color: linen;
+  z-index: 0;
+}
+
+.part2 {
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+  width: 30%;
+  height: 18rem;
+  background-color: aliceblue;
+  z-index: 1;
+  padding: 2rem;
+  box-shadow: 2px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.part3 {
+  position: absolute;
+  bottom: 4rem;
+  right: 8rem;
+  width: 43%;
+  height: 32rem;
+  background-image: url(../images/t-3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.img-bottom {
+  position: absolute;
+  bottom: 1rem;
+  right: 3rem;
+  color: black;
+}
+.img-top {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+button {
+  padding: 0.5rem 1rem;
+  background-color: lightgray;
+  border: 1px solid darkgray;
+}
+.effect-1 {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  left: 1rem;
+  top: 0;
+}
+.effect-2 {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  right: 1rem;
+  bottom: 0;
+}
