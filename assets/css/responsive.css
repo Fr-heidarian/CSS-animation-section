@@ -1,0 +1,109 @@
+@media screen and (max-width: 480px) {
+  .parent {
+    width: 90%;
+    height: 12rem;
+    margin: 0 auto;
+  }
+  .part1 {
+    width: 50%;
+    height: 5rem;
+    left: 0.75rem;
+  }
+  .part2 {
+    position: absolute;
+    top: 6rem;
+    left: 1.5rem;
+    width: 25%;
+    height: 6.75rem;
+    padding-top: 0;
+    padding-bottom: 2.5rem;
+    overflow: hidden;
+  }
+  .part2 p {
+    font-size: 0.5rem;
+  }
+  .part2 h2 {
+    font-size: 0.75rem;
+  }
+  .part3 {
+    bottom: 2rem;
+    right: 8rem;
+    width: 40%;
+    height: 16rem;
+  }
+  .img-bottom {
+    width: 70px;
+    height: 70px;
+    bottom: 1rem;
+    right: 7rem;
+  }
+  .img-top {
+    width: 70px;
+    height: 70px;
+    top: 4rem;
+    left: 1rem;
+  }
+  button {
+    padding: 0.12rem 0.25rem;
+    font-size: 0.5rem;
+  }
+  .effect-2 {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .parent {
+    width: 70%;
+    height: 22rem;
+  }
+  .part1 {
+    width: 70%;
+  }
+  .part2 {
+    position: absolute;
+    top: 10rem;
+    left: 4rem;
+    width: 34%;
+    height: 14rem;
+    overflow: hidden;
+  }
+  .part2 p {
+    font-size: 0.75rem;
+  }
+  .part2 h2 {
+    font-size: 1.25rem;
+  }
+  .part3 {
+    bottom: 2rem;
+    right: 3rem;
+    width: 63%;
+    height: 22rem;
+  }
+  .img-bottom {
+    width: 90px;
+    height: 90px;
+    bottom: 1rem;
+    right: 1rem;
+  }
+  .img-top {
+    width: 90px;
+    height: 90px;
+    top: 4rem;
+    left: 4rem;
+  }
+  button {
+    padding: 0.25rem 0.75rem;
+  }
+  .effect-2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
